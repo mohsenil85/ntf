@@ -1,9 +1,18 @@
 body{
-  background-image:url("../img/mtsbw-light.jpg");
+  background-image:url("../img/mts-odd.jpg");
   background-attachment:fixed;
 }
 
- p {
+ * {
   color:black;
+}
+
+.footer {
+  text-align:center;
+  color:orange;
+}
+
+.muted {
+  color:orange;
 }
 
