@@ -4,18 +4,6 @@ body{
 }
 
  p {
-  color:white;
+  color:black;
 }
 
-.bigTitle h1{
-  text-align:center;
-  margin-top:200px;
-  color:green;
-}
-
-.bigTitle h3{
-  text-align:center;
-  margin-bottom:400px;
-  color:green;
-  
-}
