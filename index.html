@@ -196,7 +196,7 @@
             <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
             <div class="nav-collapse collapse">
               <ul class="nav">
-                <li><a href="#">Home</a></li>
+                <li class="active"><a href="#">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#products">Products</a></li>
                 <li><a href="#products">
@@ -204,7 +204,7 @@
                 </a></li>
 
                 <li>
-                  <a href="javascript:;" class="simpleCart_checkout">Checkout</a>
+                <a href="javascript:;" class="simpleCart_checkout">Checkout</a>
                 </li>
               </ul>
             </div><!--/.nav-collapse -->
@@ -213,89 +213,8 @@
 
       </div> <!-- /.container -->
     </div><!-- /.navbar-wrapper -->
-    <div class="container" data-spy="scroll" data-target="#nav">
-
-
-      <div class="jumbotron">
-        <br>
-        <br>
-        <br>
-        <h1>NORTH TO THE FUTURE!</h1>
-        <br>
-        <br>
-        <br>
-        <p class="lead"> 
-        for alaskans, by alaskans
-        </p>
-
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-      </div>
-
-      <!-- Marketing messaging and featurettes
-      ================================================== -->
-      <!-- Wrap the rest of the page in another container to center all the content. -->
-
-      <div class="container marketing">
-
-
-        <!-- START THE FEATURETTES -->
-
-        <hr class="featurette-divider">
-
-        <div class="featurette">
-          <img class="featurette-image pull-right" src="./img/browser-icon-chrome.png">
-          <h2 class="featurette-heading">First featurette headling. <span class="muted">It'll blow your mind.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor 
-          fringilla. Vestibulum id ligula porta felis euismod semper. Praesent 
-          commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, 
-          tellus ac cursus commodo.</p>
-        </div>
-
-        <hr class="featurette-divider">
-
-        <div class="featurette">
-          <img class="featurette-image pull-left" src="./img/browser-icon-firefox.png">
-          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="muted">See for yourself.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor 
-          fringilla. Vestibulum id ligula porta felis euismod semper. Praesent 
-          commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, 
-          tellus ac cursus commodo.</p>
-        </div>
-
-        <hr class="featurette-divider">
-
-        <div class="featurette">
-          <img class="featurette-image pull-right" src="./img/browser-icon-safari.png">
-          <h2 class="featurette-heading">And lastly, this one. <span class="muted">Checkmate.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor 
-          fringilla. Vestibulum id ligula porta felis euismod semper. Praesent 
-          commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, 
-          tellus ac cursus commodo.</p>
-        </div>
-
-        <hr class="featurette-divider">
-
-        <!-- /END THE FEATURETTES -->
-
-
-
-      </div><!-- /.container -->
-
-
-
-
-      <div id="about">
+    <div class="container" data-offset="80" data-spy="scroll" data-target=".navbar">
+   <div id="about">
 
         <div class="jumbotron">
           <br>
@@ -339,44 +258,90 @@
           </div>
         </div>
 
-        <hr>
+
+
+
+      <!-- Marketing messaging and featurettes
+      ================================================== -->
+      <!-- Wrap the rest of the page in another container to center all the content. -->
+
+      <div class="container marketing">
+
+
+        <!-- START THE FEATURETTES -->
+
+        <hr class="featurette-divider">
+
+        <div class="featurette">
+          <img class="featurette-image pull-right" src="./img/browser-icon-chrome.png">
+          <h2 class="featurette-heading">First featurette headling. <span class="muted">It'll blow your mind.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor 
+          fringilla. Vestibulum id ligula porta felis euismod semper. Praesent 
+          commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, 
+          tellus ac cursus commodo.</p>
+
+          <div class="simpleCart_shelfItem">
+            <h2 class="item_name"> Awesome T-shirt </h2>
+            <p> <input value="1" class="item_Quantity" type="text"><br>
+            <span class="item_price">$35.99</span><br>
+            <a class="item_add" href="javascript:;"> Add to Cart </a></p>
+          </div>
+
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="featurette">
+          <img class="featurette-image pull-left" src="./img/browser-icon-firefox.png">
+          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="muted">See for yourself.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor 
+          fringilla. Vestibulum id ligula porta felis euismod semper. Praesent 
+          commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, 
+          tellus ac cursus commodo.</p>
+
+          <div class="simpleCart_shelfItem pull-right">
+            <h2 class="item_name"> Awesome T-shirt </h2>
+            <p> <input value="1" class="item_Quantity" type="text"><br>
+            <span class="item_price">$35.99</span><br>
+            <a class="item_add" href="javascript:;"> Add to Cart </a></p>
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="featurette">
+          <img class="featurette-image pull-right" src="./img/browser-icon-safari.png">
+          <h2 class="featurette-heading">And lastly, this one. <span class="muted">Checkmate.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor 
+          fringilla. Vestibulum id ligula porta felis euismod semper. Praesent 
+          commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, 
+          tellus ac cursus commodo.</p>
+
+          <div class="simpleCart_shelfItem">
+            <h2 class="item_name"> Awesome T-shirt </h2>
+            <p> <input value="1" class="item_Quantity" type="text"><br>
+            <span class="item_price">$35.99</span><br>
+            <a class="item_add" href="javascript:;"> Add to Cart </a></p>
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- /END THE FEATURETTES -->
+
+
+
+      </div><!-- /.container -->
+
 
 
       </div> <!-- /container -->
-      <div id="products">
-        <div class="simpleCart_shelfItem">
-          <h2 class="item_name"> Awesome T-shirt </h2>
-          <p> <input value="1" class="item_Quantity" type="text"><br>
-          <span class="item_price">$35.99</span><br>
-          <a class="item_add" href="javascript:;"> Add to Cart </a></p>
-        </div>
-         <div class="simpleCart_shelfItem">
-          <h2 class="item_name"> Sweet T-shirt </h2>
-          <p> <input value="1" class="item_Quantity" type="text"><br>
-          <span class="item_price">$35.99</span><br>
-          <a class="item_add" href="javascript:;"> Add to Cart </a></p>
-        </div>
-         <div class="simpleCart_shelfItem">
-          <h2 class="item_name"> Cool T-shirt </h2>
-          <p> <input value="1" class="item_Quantity" type="text"><br>
-          <span class="item_price">$35.99</span><br>
-          <a class="item_add" href="javascript:;"> Add to Cart </a></p>
-        </div>
- 
-        <div class="simpleCart_shelfItem">
-          <h2 class="item_name"> Neato T-shirt </h2>
-          <p> <input value="1" class="item_Quantity" type="text"><br>
-          <span class="item_price">$35.99</span><br>
-          <a class="item_add" href="javascript:;"> Add to Cart </a></p>
-        </div>
-      </div> <!-- /products div -->
-    </div> <!-- /about div -->
+      
 
     <div class="footer">
       <p>© North To The Future 2013</p>
     </div>
-    <!-- Le javascript
-    ================================================== -->
+    <!--     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="./js/jquery.js"></script>
     <script src="./js/bootstrap-transition.js"></script>
