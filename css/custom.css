@@ -22,6 +22,6 @@ body{
   margin-right:auto;
 }
 
-.simpleCart_total{
-  color:orange!important;
+.simpleCart_total, .simpleCart_quantity{
+  color:grey!important;
 }
