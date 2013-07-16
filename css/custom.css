@@ -16,3 +16,12 @@ body{
   color:orange;
 }
 
+#contact{
+  width:700px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.simpleCart_total{
+  color:orange!important;
+}
