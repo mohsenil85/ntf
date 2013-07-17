@@ -33,3 +33,11 @@ body{
   margin-top:80px;
   margin-bottom:60px;
 }
+
+#img-top{
+  position:fixed;
+  width:1068px;
+  margin-left:78px;
+  margin-right:auto;
+  margin-top:-20px;
+}
