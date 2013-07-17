@@ -25,3 +25,11 @@ body{
 .simpleCart_total, .simpleCart_quantity{
   color:grey!important;
 }
+
+.logo {
+  width:400px;
+  margin-right:auto;
+  margin-left:auto;
+  margin-top:80px;
+  margin-bottom:60px;
+}
