@@ -120,7 +120,20 @@
           <hr class="featurette-divider">
 
           <div class="featurette">
-            <img class="featurette-image pull-right" src="./img/product/blue_front.jpg" style="width:450px;">
+            <div class="featurette-image pull-right carousel slide">
+              <div class="carousel-inner">
+                <div class="item active">
+                  <img src="./img/product/blue_front.jpg" style="width:450px" />
+                  
+
+                </div>
+                <div class="item">
+                  <img src="./img/product/blue_back.jpg" style="width:450px" />
+                </div>
+             <div class="item">
+                  <img src="./img/product/blue_closeup.jpg" style="width:450px" />
+                </div> </div>
+          </div>
             <h2 class="featurette-heading">First featurette headling. <span class="muted">It'll blow your mind.</span></h2>
             <p class="lead">Donec ullamcorper nulla non metus auctor 
             fringilla. Vestibulum id ligula porta felis euismod semper. Praesent 
@@ -133,6 +146,7 @@
               <span class="item_price">$35.99</span><br>
               <a class="item_add btn btn-large btn-primary" href="javascript:;"> Add to Cart </a></p>
             </div>
+          </div>
 
           </div>
 
@@ -226,6 +240,7 @@
       <script src="./js/bootstrap-scrollspy.js"></script>
       <script src="./js/bootstrap-button.js"></script>
       <script src="./js/bootstrap-collapse.js"></script>
+      <script src="./js/bootstrap.min.js"></script>
       <script src="./js/simpleCart.min.js"></script>
 
       <script>
@@ -238,4 +253,9 @@
       </script>
 
 
+      <script>
+        $(document).ready(function(){
+          $('.carousel').carousel();
+        });
+      </script>
   </body></html>
